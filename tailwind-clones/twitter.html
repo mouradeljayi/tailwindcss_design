@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <body class="bg-gray-300 font-sans">
+
+    <div class="bg-white">
+      <div class="container mx-auto px-5 py-4 flex flex-col lg:flex-row justify-between items-center">
+        <nav class="w-full lg:w-2/5">
+          <a href="#" class="text-sm mr-4 font-semibold pb-6 text-gray-800 lg:border-b-2 border-transparent lg:hover:border-blue-600 hover:text-blue-600"> <i class="fas fa-home fa-lg" ></i> Home </a>
+          <a href="#" class="text-sm mr-4 font-semibold pb-6 text-gray-800 lg:border-b-2 border-transparent lg:hover:border-blue-600 hover:text-blue-600"> <i class="fas fa-bolt fa-lg "></i> Moments </a>
+          <a href="#" class="text-sm mr-4 font-semibold pb-6 text-gray-800 lg:border-b-2 border-transparent lg:hover:border-blue-600 hover:text-blue-600"> <i class="fas fa-bell fa-lg" ></i> Notifications </a>
+          <a href="#" class="text-sm mr-4 font-semibold pb-6 text-gray-800 lg:border-b-2 border-transparent lg:hover:border-blue-600 hover:text-blue-600"> <i class="fas fa-envelope fa-lg" ></i> Messages </a>
+        </nav>
+        <div class="w-full lg:w-1/5 text-center my-4 lg:my-0">
+          <a href="#"> <i class="fab fa-twitter fa-2x text-blue-600"></i> </a>
+        </div>
+        <div class="flex items-center lg:justify-end lg:items-end">
+          <div class="mr-4 relative">
+            <input type="text"  class="rounded-full py-2 px-4 w-64 bg-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Search Twitter">
+            <span class="absolute right-2 top-2 mr-2 text-gray-800"> <i class="fas fa-search"></i> </span>
+          </div>
+          <div class="mr-4">
+            <a href="#"> <img src="img/avatar.jpg" class="rounded-full h-8 w-8 lg:w-10 lg:h-10"> </a>
+          </div>
+          <div>
+            <button class="bg-blue-600 hover:bg-blue-800 text-white font-medium py-2 px-3 lg:px-8 rounded-full">Tweet</button>
+          </div>
+        </div>
+      </div> <!-- end container -->
+    </div>
+
+    <div class="hero h-64 bg-cover"></div>
+    <div class="bg-white shadow">
+      <div class="container mx-auto px-5 text-sm lg:text-base flex flex-col lg:flex-row items-center lg:relative">
+        <div class="w-full lg:w-1/4">
+          <img src="img/tailwind_logo.jpg" class="rounded-full lg:absolute h-44 w-44 lg:inset-x-0 lg:bottom-0 lg:left-8 ">
+        </div>
+        <div class="w-full lg:w-1/2">
+          <ul class="list-reset flex">
+            <li class="text-center py-3 px-4 text-gray-800 border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600">
+              <a href="#">
+                <div class="font-bold mb-1">Tweets</div>
+                <div class="font-bold">60</div>
+              </a>
+            </li>
+            <li class="text-center py-3 px-4 text-gray-800 border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600">
+              <a href="#">
+                <div class="font-bold mb-1">Following</div>
+                <div class="font-bold">1,500</div>
+              </a>
+            </li>
+            <li class="text-center py-3 px-4 text-gray-800 border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600">
+              <a href="#">
+                <div class="font-bold mb-1">Followers</div>
+                <div class="font-bold">85</div>
+              </a>
+            </li>
+            <li class="text-center py-3 px-4 text-gray-800 border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600">
+              <a href="#">
+                <div class="font-bold mb-1">Likes</div>
+                <div class="font-bold">0</div>
+              </a>
+            </li>
+            <li class="text-center py-3 px-4 text-gray-800 border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600">
+              <a href="#">
+                <div class="font-bold mb-1">Moments</div>
+                <div class="font-bold">1</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full lg:w-1/4 flex my-4 lg:my-0 lg:justify-end items-center">
+          <div class="mr-6">
+            <button type="button" class="bg-blue-600 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-full">Following</button>
+          </div>
+          <div class="">
+            <a href="#"> <i class="fas fa-ellipsis-v fa-lg"></i> </a>
+          </div>
+        </div>
+      </div> <!-- end container -->
+    </div>
+
+    <div class="container mx-auto flex flex-col lg:flex-row px-5 mt-3">
+      <div class="w-full lg:w-1/4 pr-6 mt-8 mb-4">
+        <h1> <a href="#" class="text-3xl font-bold hover:underline hover:text-blue-800">Tailwind CSS</a> </h1>
+        <div class="text-xl text-gray-800 hover:underline hover:text-blue-800">@tailwindcss</div>
+        <div class="mt-4 mb-4">
+          A utility-first CSS framework for rapid UI development. By <a href="#" class="text-blue-800">@adamethan</a> , <a href="#"  class="text-blue-800">@reiniek</a> , <a href="#"  class="text-blue-800">@daviddhemphil</a> and <a href="#"  class="text-blue-800">@steverogergs</a>.
+        </div>
+        <div class="mb-2 text-sm text-blue-800">
+          <i class="fas fa-link fa-lg mr-1"> <a href="#">tailwindcss.com</a> </i>
+        </div>
+        <div class="mb-2 text-sm">
+          <i class="fas fa-calendar fa-lg mr-1 text-blue-800"> <a href="#">Joined August 2017</a> </i>
+        </div>
+        <div class="mb-4">
+          <button class="bg-blue-600 mt-2 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-full w-full h-10">Tweet to Tailwind CSS</button>
+        </div>
+        <div class="mb-4 text-sm">
+          <i class="fas fa-user fa-lg text-blue-800 mr-1"> <a href="#">27 Followers you know</a> </i>
+        </div>
+        <div class="mb-4 grid grid-cols-5">
+          <a href="#"> <img src="img/follower01.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower02.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower03.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower04.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower05.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower06.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower07.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower08.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower10.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+          <a href="#"> <img src="img/follower01.jpg" class="rounded-full h-12 w-12 mb-2" alt=""> </a>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 bg-white mb-4">
+
+        <div class="p-3 text-lg font-bold border-b border-gray-200">
+          <a href="#"class="text-blue-600 mr-6">Tweets</a>
+          <a href="#"class="text-black mr-6">Replies</a>
+          <a href="#"class="text-black mr-6">Media</a>
+        </div>
+        <div class="flex border-b border-gray-200">
+          <div class=" w-3/12 text-right p-3">
+            <i class="fas fa-thumbtack text-blue-600"></i>
+            <div class="">
+              <a href="#"> <img src="img/avatar_tailwind.jpg" class="rounded-full h-12 w-12"> </a>
+            </div>
+          </div>
+          <div class="w-screen p-3">
+            <div class="text-sm text-gray-800">
+              Pinned Tweet
+            </div>
+            <div class="flex justify-between ">
+              <div class="">
+                <span class="font-bold"> <a href="#">Tailwind CSS</a> </span>
+                <span class="text-gray-800">@tailwindcss</span>
+                <span class="text-gray-800">&middot;</span>
+                <span class="text-gray-800">15 Dec 2020</span>
+              </div>
+              <div>
+                <a href="#" class="text-gray-800 hover:text-blue-600"> <i class="fas fa-chevron-down"></i> </a>
+              </div>
+            </div>
+
+            <div class="mb-4 mt-4">
+              <p class="mb-6"> 🎉 Tailwind CSS v0.4.0 is out!</p>
+              <p class="mb-6">Makes 'apply' more useful when usign !important utilities, and includes an improved default color pallete:</p>
+              <p class="mb-4"> <a href="#">github.com/tailwindcss/ta...</a> </p>
+              <p> <a href="#"> <img src="img/tweet1.jpg" alt="" class="border border-gray-200 rounded-sm"> </a> </p>
+            </div>
+
+            <div class="pb-2">
+              <span class="mr-8"> <a href="#" class="text-gray-800 hover:text-blue-600"> <i class="fas fa-comment fa-lg mr-2"></i> 9 </a> </span>
+              <span class="mr-8"> <a href="#" class="text-gray-800 hover:text-blue-600"> <i class="fas fa-retweet fa-lg mr-2"></i> 50 </a> </span>
+              <span class="mr-8"> <a href="#" class="text-gray-800 hover:text-blue-600"> <i class="fas fa-heart fa-lg mr-2"></i> 35 </a> </span>
+              <span class="mr-8"> <a href="#" class="text-gray-800 hover:text-blue-600"> <i class="fas fa-envelope fa-lg mr-2"></i> 17 </a> </span>
+            </div>
+          </div>
+          <div class="w-4/5">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="w-full lg:w-1/4 pl-4">
+        <div class="bg-white p-3 mb-3">
+                    <div>
+                        <span class="text-lg font-bold">Who to follow</span>
+                        <span>&middot;</span>
+                        <span><a href="#" class="text-xs">Refresh</a></span>
+                        <span>&middot;</span>
+                        <span><a href="#" class="text-xs">View All</a></span>
+                    </div>
+
+                    <div class="flex border-b border-gray-200">
+                        <div class="py-2">
+                            <a href="#"><img src="img/follow1.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                        </div>
+                        <div class="pl-2 py-2 w-full">
+                            <div class="flex justify-between mb-1">
+                                <div>
+                                    <a href="#" class="font-bold text-black">Nuxt.js</a> <a href="#" class="text-gray-800">@nuxt_js</a>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="text-gray-200 hover:text-gray-800"><i class="fas fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="bg-transparent text-xs hover:bg-blue-600 text-blue-600 font-semibold hover:text-white py-2 px-6 border border-blue-600 hover:border-transparent rounded-full">
+                                Follow
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex border-b border-gray-200">
+                        <div class="py-2">
+                            <a href="#"><img src="img/follow2.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                        </div>
+                        <div class="pl-2 py-2 w-full">
+                            <div class="flex justify-between mb-1">
+                                <div>
+                                    <a href="#" class="font-bold text-black">Laracon EU</a> <a href="#" class="text-gray-800">@LaraconEU</a>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="text-gray-200 hover:text-gray-800"><i class="fas fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="bg-transparent text-xs hover:bg-blue-600 text-blue-600 font-semibold hover:text-white py-2 px-6 border border-blue-600 hover:border-transparent rounded-full">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+      </div>
+    </div>
+
+    <style media="screen">
+      .hero {
+        background: url('img/tailwind_bg.jpg');
+      }
+    </style>
+  </body>
+</html>

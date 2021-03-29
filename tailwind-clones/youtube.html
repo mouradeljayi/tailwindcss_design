@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <body class="bg-gray-200">
+
+    <div class="top-bar bg-white grid grid-cols-12 shadow px-8 py-4">
+      <div class="col-span-12 lg:col-span-2 flex items-center">
+        <div class="mr-8">
+          <a href="#"><i class="fas fa-bars fa-lg text-gray-600"></i></a>
+        </div>
+        <div>
+          <a href="#"><i class="fab fa-youtube fa-lg text-red-800"></i><span class="font-bold text-lg">Youtube</span></a>
+        </div>
+      </div>
+      <div class="col-span-12 lg:col-span-10 flex flex-col lg:flex-row items-center justify-between">
+        <div>
+          <form class="flex mt-4 lg:mt-0">
+            <input type="text" class="border border-gray-600 py-1 px-2 w-80 lg:w-96 focus:outline-none focus:border-blue-600" placeholder="Search">
+            <button class="border-t border-r border-b border-gray-800 py-1 px-6 bg-gray-200 hover:bg-gray-600"> <i class="fas fa-search text-gray-900"></i> </button>
+          </form>
+        </div>
+        <div class="flex items-center mt-4 lg:mt-0">
+          <a href="#"> <i class="fas fa-upload fa-lg text-gray-600 mr-8"></i> </a>
+          <a href="#"> <i class="fab fa-sketch fa-lg text-gray-600 mr-8"></i> </a>
+          <a href="#"> <i class="fas fa-bell fa-lg text-gray-600 mr-8"></i> </a>
+          <a href="#"> <img src="img/avatar.jpg" alt="avatar" class="rounded-full w-8"> </a>
+        </div>
+      </div>
+    </div> <!--end top bar-->
+
+    <div class="youtube-body grid grid-cols-12">
+      <div class="left-sidebar col-span-12 lg:col-span-2 py-6 bg-gray-300 min-h-screen">
+        <div class="mb-6">
+          <a href="#" class="flex items-center py-3 px-6 mb-2 hover:bg-gray-400 transition duration-150 ease-in-out">
+            <i class="fas fa-home fa-lg fa-fw text-red-800 mr-4"></i>
+            <span class="font-semibold">Home</span>
+          </a>
+          <a href="#" class="flex items-center py-3 px-6 mb-2 hover:bg-gray-400 transition duration-150 ease-in-out">
+            <i class="fas fa-fire fa-lg fa-fw text-gray-600 mr-4"></i>
+            <span class="font-semibold">Trending</span>
+          </a>
+          <a href="#" class="flex items-center py-3 px-6 mb-2 hover:bg-gray-400 transition duration-150 ease-in-out">
+            <i class="fas fa-list fa-lg fa-fw text-gray-600 mr-4"></i>
+            <span class="font-semibold">Subscriptions</span>
+          </a>
+        </div>
+      </div> <!--end left-sidebar-->
+
+      <div class="container mx-auto px-12 py-6 youtube-videos col-span-12 lg:col-span-10">
+        <div class="font-semibold mb-6">
+          Recommended
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+          <div class="mb-6">
+            <iframe class="pr-4" width="250px" height="150px" src="https://www.youtube.com/embed/qq2XhWs4_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-sm mt-2">
+              <a href="#" class="font-bold">راب هجوم العمالقة - حماسي مع مونتاج</a>
+            </div>
+            <div class="text-sm">
+              <a href="#" class="text-gray-800 hover:text-black">NoXs-نوكسز <i class="fas fa-check-circle"></i> </a>
+            </div>
+            <div class="text-sm text-gray-800">618K views . 2 days ago</div>
+          </div>
+
+        </div>
+      </div> <!--end youtube videos-->
+
+    </div> <!--end youtube body-->
+
+  </body>
+</html>
